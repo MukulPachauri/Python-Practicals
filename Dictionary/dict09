@@ -1,0 +1,19 @@
+a = {}
+size = int(input("Enter the size of dict : "))
+for i in range(0,size):
+    key = input("Enter the key of dict : ")
+    value = input("Enter the value of dict : ")
+    a.update({key:value})
+# print(a)
+# print(a.keys())
+# print(a.values())
+# print(a.items())
+# a.pop(2)
+# print(a)
+# a.popitem()
+# print(a)
+
+# del a[2]
+# print(a)
+
+print(a.fromkeys(1,100))
